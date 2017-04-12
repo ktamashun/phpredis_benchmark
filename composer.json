@@ -1,0 +1,12 @@
+{
+    "name": "kovacstamas/phpredis_benchmark",
+    "authors": [
+        {
+            "name": "kovacs.tamas",
+            "email": "kovacs.tamas@ustream.tv"
+        }
+    ],
+    "require": {
+        "predis/predis": "^1.1"
+    }
+}

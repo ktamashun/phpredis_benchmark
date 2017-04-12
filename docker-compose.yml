@@ -1,0 +1,11 @@
+version: "3"
+services:
+  benchmark:
+    image: "kovacstamas/php7.1-phpredis"
+    links:
+      - redis
+    volumes:
+      - .:/www
+
+  redis:
+    image: "redis"
